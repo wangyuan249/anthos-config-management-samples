@@ -17,6 +17,7 @@ kind: K8sNoExternalServices
 metadata:
   name: no-internet-services
 spec:
-  parameters:
-    internalCIDRs: [] 
+  parameters: 
+    internalCIDRs:
+    - 10.0.0.1/32
 # [END anthosconfig_quickstart_policies_no_ext_services] 
